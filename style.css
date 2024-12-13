@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(44, 42, 42);
+    position: relative;
+    justify-content: center;
+    height: 90vh;
+    width: 80vw;
+    border-radius: 10px;
+
+    align-items: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 1%;
+    
+    box-sizing: border-box;
+}
+
+.form-section {
+    background-color: rgb(44, 42, 42);
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+}
+
+.login-header {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.logo {
+    
+    display: block;
+    
+    position: relative;
+    height: 80px;
+    
+    align-items: center;
+  
+}
+
+.login-box {
+    height: 100%;
+    gap: 15px;
+    
+    margin-top: 100px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 20px 28px;
+    cursor: pointer;
+    padding-block: inherit;
+
+}
+
+.Username_or_Email {
+        width: 280px;
+        height: 20px;
+        padding: 2px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+.password{
+        width: 280px;
+        height: 20px;
+        padding: 2px;
+        font-size: 16px;
+        border-radius: 5px;
+}
+.span {
+    justify-content: space-around;
+}
+
+.remember-me {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+
+
+}
+
+.forget-pass a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    
+}
+
+.clkbtn {
+    border-color: green;
+    background-color: greenyellow;
+    box-shadow: rgba(69, 117, 60, .5);
+    align-items: center;
+    border-radius: 10px;
+    width: 280px;
+    height: 20px;
+    color: white;
+    display: flex;
+    
+    font-weight: 600;
+    justify-content: center;
+   
+    min-height: 3rem;
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: var(--buttonBoxShadow);
+    column-gap: var(--columnGap, .6rem);
+    display: inline-grid;
+    font-size: var(--fontSize, 1.4rem);
+    font-weight: var(--fontWeight, 600);
+    grid-auto-flow: column;
+    justify-content: center;
+    line-height: 1.1428;
+    max-width: 100%;
+    min-height: var(--buttonHeight, 4rem);
+    overflow: hidden;
+    padding: var(--buttonPaddings, .4rem 1.6rem);
+    text-align: center;
+    text-shadow: 0 .1rem 0 var(--buttonTextShadow, rgba(0, 0, 0, .2)), 0 .3rem 1.6rem rgba(0, 0, 0, .05);
+    touch-action: manipulation;
+    transition-duration: .1s;
+    transition-property: box-shadow, background-color, color;
+    transition-timing-function: ease-out;
+    word-break: break-word;
+}
+
+.authentication-social-signin-options {
+    text-decoration: none;
+    text-decoration-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.authentication-social-signin-options a {
+    text-decoration: none;
+}
+
+.authentication-social-signin-social-button {
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+    margin: 5px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.2;
+    min-height: 3rem;
+    position: relative;
+    width: 100%;
+}
+
+.authentication-social-signin-apple {
+    background-color: #000;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.authentication-social-signin-google {
+    background-color: white;
+    border: .1rem color(grey) ;
+    color: var(--color-gray-900);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.authentication-social-signin-facebook {
+    background-color: #1778f2;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.login-signup a {
+    text-decoration: none;
+}
+
+.login-text {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.login-text-link {
+    text-decoration: none;
+    color: #fff;
+}
